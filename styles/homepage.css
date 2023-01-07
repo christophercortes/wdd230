@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Source+Sans+Pro:wght@300&display=swap');
+:root {
+    --heading-font: "regular 400";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+}
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+header {
+    background-color: #5293A6;
+    border-radius: 1em / 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.profile {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.description {
+    text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+h1 {
+    font-family: Roboto, Helvetica, sans-serif;
+    justify-content: flex-start;
+    color: #CFD6D8;
+    padding-right: 10%;
+    padding-top: 20%;
+}
+h2, h4 {
+    font-family: Roboto, Helvetica, sans-serif;
+    text-align: center;
+    color: #5A3226;
+}
+ul {
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+a :-webkit-any-link {
+    cursor: pointer;
+    text-align: justify;
+}
+footer {
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #CFD6D8;
+    background-color: #5293A6;
+    border-radius: 1em / 1em;
+    text-align: center;
+}
