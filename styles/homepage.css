@@ -25,9 +25,8 @@ header {
     font-family: Roboto, Helvetica, sans-serif;
 }
 h1 {
-    font-family: Roboto, Helvetica, sans-serif;
     justify-content: flex-start;
-    color: #CFD6D8;
+    color: white;
     padding-right: 10%;
     padding-top: 20%;
 }
@@ -50,7 +49,7 @@ footer {
     display: grid;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #CFD6D8;
+    color: white;
     background-color: #5293A6;
     border-radius: 1em / 1em;
     text-align: center;
