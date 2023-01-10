@@ -1,2 +1,5 @@
-const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-document.getElementById('currentdate'). textContent = new Date().toLocaleDateString('en-US', options);
+const options = {month: 'numeric', day: 'numeric', year: 'numeric'};
+document.getElementById('currentdate'). textContent = new Date().toLocaleTimeString('en-US', options);
+
+const year = new Date();
+document.getElementById('year'). textContent = new Date().getFullYear('en-US', year);

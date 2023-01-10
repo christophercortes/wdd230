@@ -53,4 +53,5 @@ footer {
     background-color: #5293A6;
     border-radius: 1em / 1em;
     text-align: center;
+    /*display: inline-block;*/
 }
