@@ -14,11 +14,8 @@ header {
     padding-bottom: 10px;
 }
 .profile {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    width: auto;
+    padding-left: 80px; 
 }
 .description {
     text-align: center;
@@ -26,9 +23,8 @@ header {
 }
 h1 {
     justify-content: flex-start;
+    font-size: 1.5em;
     color: white;
-    padding-right: 10%;
-    padding-top: 20%;
 }
 h2, h4 {
     font-family: Roboto, Helvetica, sans-serif;

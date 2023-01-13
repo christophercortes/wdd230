@@ -1,0 +1,16 @@
+@media only screen and (min-width: 32.5em) {
+    .profile {
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+    }
+    
+    h1 {
+        font-size: 2em;
+        padding-right: 20%;
+        padding-left: 5%;
+        padding-top: 20%;
+
+    }
+}

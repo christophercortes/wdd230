@@ -1,4 +1,4 @@
-const options = {month: 'numeric', day: 'numeric', year: 'numeric'};
+const options = document.lastModified;
 document.getElementById('currentdate'). textContent = new Date().toLocaleTimeString('en-US', options);
 
 const year = new Date();
