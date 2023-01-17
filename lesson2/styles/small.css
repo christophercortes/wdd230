@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Freehand&family=Fuzzy+Bubbles&family=Noto+Serif&family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    display: grid;
+    /* max-width: 1000px; */
+    padding-left: 20%;
+    padding-top: 30px;
+    
+}
+header {
+    background-color: #5293A6;
+    border-radius: 15px;
+    text-align: center;
+}
+main {
+   /* display: flex;*/
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h1, h2 {
+    font-family:'Noto', sans-serif;
+    color: white;
+}
+h2 {
+    padding-top: 0.5px;
+}
+.image1, .image2, .image3 {
+    background-color: #F4F5F6;
+}
+h3 {
+    background-color: #5293A6;
+    text-align: left;
+    font-family: 'Noto', sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+p, a {
+    font-family: 'Noto', sans-serif;
+    padding-left: 15px;
+}
+.image {
+    background-color: #F4F5F6;
+    text-align: left;
+    padding-top: 30px;
+    padding-right: 5px;
+}
+footer {
+    background-color: #5293A6;
+    font-family: 'Noto', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Desktop Views 
+@media only screen and (min-width: 60em) {
+    main {
+        display: flex;
+}
+}*/
+
+/* Small Views 
+@media only screen and (min-width:) {
+
+} */
