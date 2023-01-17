@@ -1,6 +1,7 @@
 @media only screen and (min-width: 60em) {
     body {
-        padding-right: 50%;
+    padding-right: 20%;
+    padding-left: 20%;
     }
     #image1 {
         grid-column: 1/2;
