@@ -1,0 +1,16 @@
+@media only screen and (min-width: 60em) {
+    body {
+        padding-right: 50%;
+    }
+    #image1 {
+        grid-column: 1/2;
+    }
+    #image2 {
+        grid-column: 2/3;
+    }
+    #image3 {
+        grid-column: 3/4;
+    }
+
+}
+

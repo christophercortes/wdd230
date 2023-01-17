@@ -1,5 +1,4 @@
-const options = document.lastModified;
-document.getElementById('currentdate'). textContent = new Date().toLocaleTimeString('en-US', options);
+document.getElementById('currentdate'). textContent = document.lastModified;
 
 const year = new Date();
 document.getElementById('year'). textContent = new Date().getFullYear('en-US', year);
