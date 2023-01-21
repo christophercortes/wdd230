@@ -1,0 +1,82 @@
+body {
+    width: 960px;
+    display: grid;
+}
+header {
+    display: grid;
+    background-color: #5293A6;
+    font-family: 'Noto', sans-serif;
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #98c7eb;
+    box-shadow: 0 0 30px #333;
+}
+nav div {
+    flex: 1 1 auto;
+    padding: 0 auto;
+}
+nav a {
+    display: block;
+    color: #FAFAFA;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding:  15px;
+}
+nav a:hover {
+    background-color: #77B5E4;
+}
+main {
+    display: grid;
+    padding-top: 50px;
+}
+.colors {
+    width: 100%;
+    margin: 50px auto;
+}
+.colors th {
+    background-color: #999;
+}
+.primary {
+    background-color: #98c7eb;
+}
+.secondary {
+    background-color: #77B5E4;
+}
+.accent1 {
+    background-color: #F8E7A2;
+}
+.accent2 {
+    background-color: #7C222A;
+}
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #FAFAFA;
+}
+h2, h3, h4 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #184E77;
+}
+P {
+    text-align: center;
+    font-family: sans-serif;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+footer {
+    display: block;
+    background-color: #5293A6;
+    font-family: sans-serif;
+    color: #FAFAFA;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

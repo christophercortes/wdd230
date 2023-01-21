@@ -1,0 +1,16 @@
+@media only screen and (min-width: 60em) {
+    body{
+        margin: 0 auto;
+    }
+    header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    nav {
+        width: 940px;
+        flex-direction: row;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+  }  
+}
