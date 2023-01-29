@@ -76,4 +76,10 @@ nav ul.open {display: block;}
 footer {
     display: grid;
     background-color: #5293A6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 1em / 1em;
+    text-align: center;
+
 }
