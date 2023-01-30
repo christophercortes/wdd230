@@ -1,6 +1,32 @@
 @media only screen and (min-width: 64rem) {
+    nav button {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        margin-top: 60px;
+    }
     nav ul li a {
-        /* padding: .5rem 1rem; */
-        padding-left: .9rem;
+        padding: 1.5rem 1rem;
+        padding-left: 50px;
+    }
+    .logo {
+        margin-left: 4rem;
+    }
+    .headings h1 {
+        font-size: 30px;
+        padding-bottom: 70px;
+        margin-left: 20px;
+    }
+    .sub {
+        margin-top: -90px;
+        margin-left: 80px;
+    }
+    .time {
+        margin-top: -50px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px 0px 10px 0px;
     }
 }
