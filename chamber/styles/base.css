@@ -92,8 +92,38 @@ nav ul.open {display: block;}
 }
 .alignment {
     display: grid;
-    height: max-content;
-    background-color: #98c7eb;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, minmax(auto, 400px));
+}
+.grid1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    margin: 5px;
+}
+.grid2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+    margin: 5px;
+}
+.grid3 {
+    grid-column: 1 / 2;
+    display: none;
+    margin: 5px;
+}
+.grid4 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    margin: 5px;
+}
+.grid5 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 4;
+    margin: 5px;
+}
+.grid6 {
+    display: grid;
+    grid-column: 1 / 2;
+    margin: 5px;
 }
 footer {
     display: grid;
