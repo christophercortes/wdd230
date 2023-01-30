@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -14,11 +15,20 @@
 <body>
     <header>
         <div class="logo">
-            <img src="images/containership.jpg" alt="logo">
+            <img src="images/homelogo.png" alt="logo">
             <section class="headings">
                 <h1>International Port City</h1>
                 <q class="sub">Chamber of Commerce</q>
             </section>
+        </div>
+
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/rsz_facebook.png" alt="fb icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/rsz_instagram.png" alt="instagram icon">
+            </a>
         </div>
 
         <nav>
@@ -30,28 +40,37 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+
     </header>
+
     <div class="time">
         <span class="timeofyear" id="date"></span>
     </div>
     <main>
-        <div class="body"></div>
-        <p>Hero with site name and call to action</p>
-        <div class="#"></div>
-        <p>Event</p>
-        <div class="#"></div>
-        <p>weather</p>
-        <div class="#"></div>
-        <p>news release</p>
-        <div class="#"></div>
-        <p>spotlight 1</p>
-        <div class="#"></div>
-        <p>spotlight 2</p>
+        <div class="alignment">
+            <div class="grid1"></div>
+            <p>Hero with site name and call to action</p>
+            <div class="grid2"></div>
+            <p>Event</p>
+            <div class="grid3"></div>
+            <p>weather</p>
+            <div class="grid4"></div>
+            <p>news release</p>
+            <div class="grid5"></div>
+            <p>spotlight 1</p>
+            <div class="grid6"></div>
+            <p>spotlight 2</p>
+        </div>
     </main>
 
-
     <footer>
-        <p>&copy; <span id="year"></span> International Port City | Christopher E. Cortés | WDD 230 Project | Last
+        <div class="footerlogo">
+            <img src="images/homelogo.png" alt="logo">
+            <h2>International Port City</h2>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        
+        <p>&copy; <span id="year"></span> International Port City  Christopher E. Cortés  WDD 230 Project <br> Last
             Modification: <span id="currentdate"></span></p>
     </footer>
     <script src="scripts/chamber.js"></script>

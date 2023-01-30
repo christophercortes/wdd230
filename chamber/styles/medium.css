@@ -1,12 +1,33 @@
 @media only screen and (min-width: 35rem) {
     nav button {
-        margin: 1.3rem 2vw;
-        margin-left: 339px;
+        margin-left: 190px;
     }
     nav ul li a {
         border: none;
     }
     .headings h1 {
         font-size: 20px;
+        color: #F9D11F;
+    }
+    .sub {
+        color: #4e040a;
+    }
+    .social {
+        margin-left: 196px;
+    }
+    .footerlogo {
+        display: flex;
+    }
+    h2 {
+        color: #F9D11F;
+        margin-top: 80px;
+    }
+    h3 {
+        color: #4e040a;
+        padding-top: 90px;
+        margin-left: -229px;
+    }
+    p {
+        color: #4e040a;
     }
 }
