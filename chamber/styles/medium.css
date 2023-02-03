@@ -25,28 +25,32 @@
     p {
         color: #4e040a;
     }
+    .alignment {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, minmax(auto, 300px));
+    }
+    .grid1 {
+        grid-column: 1 / 4;
+        background-size: cover;
+    }
     .grid1 img {
-        width: 900px;
-        padding-bottom: 10px;
+        width: 984px;
+        height: auto;
     }
     .box, h2 {
         /* color: white; */
         font-size: 2.0rem;
     }
     .grid2 {
-        grid-row: 5;
-        margin-top: 20px;
-        padding-left: 20px;
-        padding-bottom: 20px;
-        
+        grid-row: 5;        
     }
     .grid3 {
         grid-row: 5;
-        
-        margin-left: -463px;
     }
     .grid4 {
         grid-row: 2;
+        grid-column: 1 / 4;
     }
     .box4 {
         width: 900px;
@@ -55,25 +59,19 @@
         padding-right: 7px;
     }
     .grid5 {
-        grid-row: 3;
-        grid-column: 1;
-        margin-left: 20px;
-        padding-top: 20px;
-        background-color: white;
-        
+        grid-row: 3;        
     }
     .grid6 {
         grid-row: 3;
         grid-column: 2;
-        margin-left: -463px;
-        padding-top: 20px;
-        background-color: white;
     }
     .grid7 {
+        display: contents;
+    }
+    .box7 {
         grid-row: 4;
+        grid-column: 1 / 4;
         background-color: antiquewhite;
-        border: 1px solid rgba(0,0,0,0.1);
-        margin-top: 20px;
     }
     .contactinfo {
         margin-left: 600px;
