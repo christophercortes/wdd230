@@ -154,7 +154,9 @@ nav ul.open {display: block;}
     margin-left: 26px;
     border: 1px solid rgba(0,0,0,0.1);
     background-color: antiquewhite;
-
+}
+.grid7 {
+    display: none;
 }
 footer {
     display: grid;
