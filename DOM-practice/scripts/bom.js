@@ -12,7 +12,7 @@ button.addEventListener('click', () => {
     liElement.appendChild(listText);
     listText.textContent = currValue;
     liElement.appendChild(deleButton);
-    deleButton.textContent = 'X';
+    deleButton.textContent = '❌';
     list.appendChild(liElement);
     deleButton.addEventListener('click', () => {
         list.removeChild(liElement);
