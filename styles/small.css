@@ -1,12 +1,17 @@
 header {
     background-color: #5293A6;
-    border-radius: 1em / 1em;
+    /* border-radius: 1em / 1em; */
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .profile {
     display: flex;
-    padding-left: 200px;
+    justify-content: space-between;
+}
+img {
+    max-width: 40%;
+    display: block;
+    padding-left: 5%;
 }
 .description {
     justify-content: flex-end;
@@ -15,8 +20,9 @@ header {
 }
 h1 {
     flex: 50%;
-    padding-left: 40px;
-    padding-top: 120px;
+    font-size: 1.3rem;
+    padding-left: 5%;
+    padding-top: 20%; 
     color: white;
 }
 h4 {
@@ -30,7 +36,7 @@ ul {
 }
 footer {
     background-color: #5293A6;
-    border-radius: 1em / 1em;
+    /* border-radius: 1em / 1em; */
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
