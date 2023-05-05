@@ -1,3 +1,7 @@
+body {
+    max-width: 700px; /* limit the content to 600 or 700px week 01 assignment*/
+    margin: 0 auto;
+}
 header {
     background-color: #5293A6;
     /* border-radius: 1em / 1em; */
@@ -21,7 +25,7 @@ img {
 h1 {
     flex: 50%;
     font-size: 1.3rem;
-    padding-left: 5%;
+    padding-left: 2.5%;
     padding-top: 20%; 
     color: white;
 }
