@@ -36,6 +36,13 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.colors {
+    margin: 50px auto;
+}
+.colors th {
+    background-color: gray;
+}
+}
 h1 {
     font-size: 1em;
     margin-left: 20px;
