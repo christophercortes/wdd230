@@ -4,7 +4,7 @@
         margin-left: 50px;
     }
     h1 {
-        margin-left: 150px;
+        margin-left: 70px;
         font-size: 2em;
     }
     nav {
@@ -21,7 +21,7 @@
         text-align: center;
     }
     footer, p {
-        font-size: 1.1em;
-        padding-left: 50px;
+        font-size: 1em;
+        padding-left: 10px;
     }
 }

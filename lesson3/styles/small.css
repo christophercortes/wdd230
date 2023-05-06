@@ -4,10 +4,13 @@
     --paragraph-font: Roboto, Helvetica, sans-serif;
 }
 body {
+    max-width: 700px;
+    margin: 0 auto;
     font-family: Roboto, Helvetica, sans-serif;
 }
 header {
     display: flex;
+    margin-top: 40px;
 }
 img {
     height: 50px;
