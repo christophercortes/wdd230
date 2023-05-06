@@ -1,6 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Source+Sans+Pro:wght@300&display=swap');
+:root {
+    --heading-font: "regular 400";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+}
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
 header {
     display: flex;
 }
+img {
+    height: 50px;
+}
 nav {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 1em;
+    margin-left: 20px;
+}
+h2, p {
+    text-align: center;
+}
+footer {
+    display: flex;
+    background-color: black;
+    font-size: 0.5em;
+    color: white;
 }
