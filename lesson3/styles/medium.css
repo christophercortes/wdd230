@@ -19,6 +19,7 @@
     nav div {
         width: 30%;
         text-align: center;
+        padding: 12px;
     }
     footer, p {
         font-size: 1em;
