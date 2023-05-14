@@ -15,14 +15,20 @@ header {
 
 img {
     height: 50px;
+    margin-top: 20px;
 }
 
 h1 {
     font-size: 1em;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #medias {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-right: 50px;
 }
 
@@ -33,7 +39,7 @@ h1 {
 
 nav button {
     float: right;
-    margin-top: -49px;
+    margin-top: -32px;
     background: transparent;
     border: solid 0.2rem;
     font-size: 1.3rem;
@@ -143,6 +149,7 @@ main {
 
 .box8 {
     display: none;
+    background-color: #b4b4b4;
 }
 
 footer {
@@ -159,6 +166,6 @@ footer {
 }
 
 hr.solid {
-    width: 700px;
+    width: 25em;
     border-top: 0.1rem solid #FEFEFE;
 }
