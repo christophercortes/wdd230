@@ -13,11 +13,16 @@
         margin: 10px;
     }
 
+    .box6 {
+        margin-right: .2em;
+    }
+
+    .box7 {
+        margin-left: 0;
+    }
+
     .box8 {
-        display: contents;
-        background-color: #b4b4b4;
-        grid-row: 4;
-        grid-column: 1;
+        display: block;
     }
 
     .box2 {
@@ -29,7 +34,8 @@
         grid-row: 5;
         width: 50%;
     }
-    /* hr.solid {
-        width: 30em;
-    } */
+
+    hr.solid {
+        width: 42em;
+    }
 }
