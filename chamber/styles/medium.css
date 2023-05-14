@@ -36,7 +36,31 @@
         margin-left: auto;
     }
 
-    hr.solid {
-        width: 42em;
+    .first {
+        display: flex;
+        justify-content: space-around;
     }
-}
+
+    .footerlogo img {
+        height: 50px;
+    }
+
+    .address, .contact {
+        font-size: .7rem;
+    }
+
+    hr.solid {
+        width: 29em;
+    }
+
+    .footerdate, .second {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: .7rem;
+    }
+
+    .second {
+        color: #FEFEFE;
+    }
+} 
