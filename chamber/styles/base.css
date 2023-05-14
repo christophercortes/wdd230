@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Source+Sans+Pro:wght@300&display=swap');
+:root {
+    --heading-font: "regular 400";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 50px;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+#medias {
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+#medias img {
+    height: 20px;
+    margin-left: 5px;
+}
+
+nav button {
+    float: right;
+    margin-top: -49px;
+    background: transparent;
+    border: solid 0.2rem;
+    font-size: 1.3rem;
+    color: #021012;
+}
+
+nav {
+    background-color: #FEFEFE;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none; /*I need it but after finishing base.css */
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    background-color: #021012;
+    color: #FEFEFE;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    font-size: .8rem;
+}
+
+nav ul li a:hover {
+    background-color: #FEFEFE;
+    color: #021012;
+} 
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+.time {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: #FEFEFE;
+    background-color: #021012;
+    font-size: 1rem;
+    padding: 0.5em;
+}
+
+main {
+    display: grid;
+    height: 700px;
+    gap: 5px;
+    margin: 10px;
+}
+.box1 {
+    background-color: #b4b4b4;
+    /* grid-row: 1; */
+}
+
+.box2 {
+    background-color: #b4b4b4;
+    /* grid-row: 2; */
+}
+
+.box3 {
+    background-color: #b4b4b4;
+    /* grid-row: 3; */
+}
+
+.box4 {
+    background-color: #b4b4b4;
+    /* grid-row: 4; */
+}
+
+.box5 {
+    display: grid;
+    background-color: #b4b4b4;
+    /* grid-row: 5; */
+}
+
+.box6 {
+    border: solid 0.1rem;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.box7 {
+    border: solid 0.1rem;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.box8 {
+    display: none;
+}
+
+footer {
+    background-color: #021012;
+}
+
+.footerlogo, .footerdate {
+    text-align: center;
+    color: #FEFEFE;
+}
+
+.footerlogo img {
+    height: 100px;
+}
+
+hr.solid {
+    width: 700px;
+    border-top: 0.1rem solid #FEFEFE;
+}
