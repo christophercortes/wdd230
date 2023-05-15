@@ -162,7 +162,7 @@ footer {
     padding-bottom: 5px;
 }
 
-.footerlogo, .footerdate, .address, .contact {
+.footerlogo, .footerdate, .address, .contact, .map a {
     text-align: center;
     color: #FEFEFE;
 }
