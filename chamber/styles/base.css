@@ -19,7 +19,7 @@ img {
 }
 
 h1 {
-    font-size: 1em;
+    font-size: .8em;
     margin-top: 40px;
 }
 
@@ -28,8 +28,8 @@ a {
 }
 
 #medias {
-    margin-top: 20px;
-    margin-right: 50px;
+    margin-top: 13px;
+    margin-right: 45px;
 }
 
 #medias img {
@@ -39,7 +39,7 @@ a {
 
 nav button {
     float: right;
-    margin-top: -32px;
+    margin-top: -41px;
     background: transparent;
     border: solid 0.2rem;
     font-size: 1.3rem;
