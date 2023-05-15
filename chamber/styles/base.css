@@ -153,6 +153,10 @@ main {
     background-color: #b4b4b4;
 }
 
+.box9 {
+    display: none;
+}
+
 footer {
     background-color: #021012;
     padding-bottom: 5px;
