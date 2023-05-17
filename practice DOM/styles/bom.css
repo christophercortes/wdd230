@@ -1,0 +1,45 @@
+body {
+    width: 700px;
+    margin: 1rem auto;
+    border: 1px solid rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 550px;
+    border: 1px solid rgba(0,0,0,0.3);
+    background-color: lightskyblue;
+    font-size: 1.3rem;
+}
+
+div input {
+    color: darkblue;
+    margin-right: 10px;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+li button {
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+div label {
+    margin-right: 10px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
