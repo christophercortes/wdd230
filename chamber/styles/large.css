@@ -6,7 +6,7 @@
 
     #medias {
         grid-column: 4;
-        padding-top: 5px;
+        padding-top: 30px;
     }
 
     nav button {
@@ -18,12 +18,13 @@
         color: #021012;
         font-size: 1.2rem;
         border: none;
+        background: transparent;
     }
 
     nav ul#primaryNav {
         display: flex;
         justify-content: center;
-        margin-top: -88px;
+        margin-top: -50px;
         padding-left: 340px;
     } 
  
@@ -34,15 +35,13 @@
 
     img {
         height: 90px;
-        margin-left: 50px;
-        margin-bottom: 30px;
-        margin-top: 5px;
+        grid-column: 1;
     }
 
     h1 {
         font-size: 1.2rem;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 33px;
     }
 
     main {

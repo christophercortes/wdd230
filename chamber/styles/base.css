@@ -9,37 +9,40 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr;
+    text-align: center;
+    margin-top: 5px;
 }
 
 img {
     height: 50px;
-    margin-top: 20px;
+    grid-column: 2;
 }
 
 h1 {
     font-size: .8em;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 a {
     text-decoration: none;
 }
 
-#medias {
+/* #medias {
     margin-top: 13px;
     margin-right: 45px;
-}
+} */
 
 #medias img {
     height: 20px;
-    margin-left: 5px;
+    margin-top: 15px;
 }
 
 nav button {
-    float: right;
-    margin-top: -41px;
+    float: left;
+    margin-top: -40px;
+    margin-left: 5px;
     background: transparent;
     border: solid 0.2rem;
     font-size: 1.3rem;
@@ -47,6 +50,8 @@ nav button {
 }
 
 nav {
+    order: 1;
+    
     background-color: #FEFEFE;
 }
 
@@ -93,9 +98,7 @@ nav ul li a:hover {
 }
 
 .time {
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 5px;
     text-align: center;
     color: #FEFEFE;
     background-color: #021012;
@@ -105,52 +108,124 @@ nav ul li a:hover {
 
 main {
     display: grid;
-    height: 700px;
-    gap: 5px;
+    gap: 10px;
     margin: 10px;
 }
 
+main h2 {
+    color: #031b29;
+    font-size: 2rem;
+    margin: 0;
+}
+
 .box1 {
-    background-color: #b4b4b4;
-    /* grid-row: 1; */
+    position: relative;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+.box1 h2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 1.5rem;
+    color: #FEFEFE;
+}
+
+.box1 a {
+    position: absolute;
+    border-radius: .6rem;
+    right: 30px;
+    top: 180px;
+    background-color: #031b29;
+    padding: 10px;
+    color: #FEFEFE;
 }
 
 .box2 {
-    background-color: #b4b4b4;
-    /* grid-row: 2; */
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
 }
 
 .box3 {
-    background-color: #b4b4b4;
-    /* grid-row: 3; */
+    /* width: 80%; I need to see a better way to adjust the size
+    margin: 0 auto; */
+    text-align: center;
+    border: 1px solid;
+}
+
+.box3 .weatherframe {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: .1;
+}
+
+.box3 .weathercondition {
+    margin: 0;
+    font-size: 2rem;
+}
+.box3 .emoji {
+    font-size: 3rem;
+}
+
+.box3 .celcius {
+    font-size: 2rem;
+    margin-top: 60px;
+}
+
+.box3 .weatherinformation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: .1;
+}
+
+hr.solid2 {
+    width: 13em;
 }
 
 .box4 {
-    background-color: #b4b4b4;
-    /* grid-row: 4; */
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
 }
 
 .box5 {
     display: grid;
-    background-color: #b4b4b4;
-    /* grid-row: 5; */
+    border: 1px solid;
+
 }
 
 .box6 {
+    text-align: center;
     border: solid 0.1rem;
     margin: 10px;
     margin-bottom: 0;
 }
 
+.box6 .truck {
+    font-size: 4rem;
+    line-height: .1;
+}
+
 .box7 {
+    text-align: center;
     border: solid 0.1rem;
     margin: 10px;
     margin-top: 0;
 }
 
+.box7 .truck2 {
+    font-size: 4rem;
+    line-height: .1;
+}
 .box8 {
     display: none;
-    background-color: #b4b4b4;
 }
 
 .box9 {
@@ -159,19 +234,22 @@ main {
 
 footer {
     background-color: #021012;
-    padding-bottom: 5px;
 }
 
-.footerlogo, .footerdate, .address, .contact, .map a {
+.footerlogo, .footerdate, .address, .contact, .map a, .second {
+    line-height: .5;
     text-align: center;
     color: #FEFEFE;
 }
 
+.second {
+    padding-bottom: 5px;
+}
 .footerlogo img {
     height: 100px;
 }
 
 hr.solid {
-    width: 20em;
+    width: 19em;
     border-top: 0.1rem solid #FEFEFE;
 }
