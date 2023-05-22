@@ -11,11 +11,16 @@
         padding-top: 10px;
     }
 
+    .box1 h2 {
+        top: 100px;
+        left: 60px;
+        font-size: 2rem;
+    }
+
     .box1 a {
-        /* position: relative; */
-        /* bottom: 370; */
-        margin-top: 180px;
-        font-size: 1.3rem;
+        position: absolute; 
+        margin-top: 270px;
+        font-size: 2rem;
     }
 
     .box4 {
@@ -46,7 +51,9 @@
     }
 
     .box8 a {
+        display: block;
         background-color: #031b29;
+        margin: 1rem;
         padding: 10px;
         color: #FEFEFE;
     }
@@ -59,7 +66,7 @@
     .box3 {
         grid-column: 1;
         grid-row: 5;
-        width: 34%;
+        width: 31%;
         margin-left: auto;
     }
 

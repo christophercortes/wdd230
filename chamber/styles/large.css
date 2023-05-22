@@ -85,7 +85,7 @@
 
     .box6, .box7, .box9 {
         height: 31%;
-        margin: 20px;
+        margin: 10px;
     }
 
     .box6 {
@@ -101,6 +101,12 @@
         display: block;
         border: solid 0.1rem;
         margin-top: 0;
+        text-align: center;
+    }
+
+    .box9 .lagoon {
+        font-size: 4rem;
+        line-height: .1;
     }
 
     .footerlogo img {
