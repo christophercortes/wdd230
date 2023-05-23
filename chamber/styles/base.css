@@ -20,6 +20,8 @@ header p {
     background-color: #031b29;
     color: #FEFEFE;
     padding: 5px;
+    text-align: center;
+    margin-top: 0;
 }
 
 img {
