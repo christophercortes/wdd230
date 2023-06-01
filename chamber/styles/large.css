@@ -76,6 +76,10 @@
         grid-row: 1 / 3;
     }
 
+    .box1 h2::after {
+        content: ": Large";
+    }
+
     .box4 {
         grid-column: 2;
         grid-row: 3

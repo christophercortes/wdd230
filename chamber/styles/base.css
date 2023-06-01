@@ -141,6 +141,10 @@ main h2 {
     color: #021012;
 }
 
+.box1 h2::after {
+    content: ": Small";
+}
+
 .box1 a {
     position: absolute;
     border-radius: .6rem;

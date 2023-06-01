@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Specificity and Redundancy</title>
+</head>
+
+<body>
+    <h1 class="header" id="header-one" style="color: brown">CSS Specificity and Redundancy</h1>
+    <p>CSS Specificity is a set of rules that determines which styles should be applied to an element when multiple CSS
+        rules target the same element and conflict with each other.
+        It is a way to resolve conflicts and determine the final style that should be used.</p>
+
+    <style>
+        body {
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        /* #header-one {
+            color: black;
+        }
+
+        .header {
+            color: green
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+        } */
+
+        p {
+            color: red;
+        }
+    </style>
+</body>
+
+</html>
