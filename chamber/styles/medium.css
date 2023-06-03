@@ -76,6 +76,27 @@
         margin-left: auto;
     }
 
+    /*discover.html*/
+
+    .picture {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .location {
+        display: flex;
+    }
+
+    .location img {
+        width: 30%;
+    }
+
+    .location p {
+        align-self: center;
+        margin-left: 30px;
+    }
+    /*discover.html ends here*/
+
     .first {
         display: flex;
         justify-content: space-around;

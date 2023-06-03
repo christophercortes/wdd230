@@ -117,6 +117,19 @@
         line-height: .1;
     }
 
+    /*discover.html*/
+
+    .picture {
+        grid-column: 1 / 4;
+        grid-row: 1 / 4;
+        width: 40%;
+    }
+
+    .picture img {
+        margin-top: 30px;
+    }
+    /*discover.html ends here*/
+
     .footerlogo img {
         margin-top: 20px;
         height: 110px;
