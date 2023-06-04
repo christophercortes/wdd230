@@ -122,15 +122,6 @@ main h2 {
     font-size: 2rem;
 }
 
-p.visit {
-    width: fit-content;
-    border: 1px solid;
-    padding: 10px;
-    background-color: #021012;
-    color: #FEFEFE;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
 .box1 {
     position: relative;
 }
@@ -250,6 +241,17 @@ hr.solid2 {
 }
 
 /*discover.html*/
+.visit, .todays {
+    /* grid-column: 1;
+    grid-row: 1 / 2; */
+    width: fit-content;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #021012;
+    color: #FEFEFE;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
 .picture {
     width: 90%;
     margin: 0 auto;

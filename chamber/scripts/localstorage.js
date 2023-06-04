@@ -1,4 +1,5 @@
 //number of visits
+const todayDisplay = document.querySelector(".today");
 const visitsDisplay = document.querySelector(".visits");
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 
@@ -12,16 +13,4 @@ numVisits++;
 localStorage.setItem("numVisits-ls", numVisits);
 
 //date math
-const msToDays = 84600000;
-const theDateToday = new Date();
-
-const todayElement = document.querySelector("today");
-
-const today = Date.now();
-
-if (theDateToday.getMonth() == 11 &&
-theDateToday.getDate() >
-25) {
-
-}
-todayElement.textContent = today; 
+todayDisplay.textContent = Date.now();
