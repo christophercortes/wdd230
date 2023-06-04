@@ -122,6 +122,15 @@ main h2 {
     font-size: 2rem;
 }
 
+p.visit {
+    width: fit-content;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #021012;
+    color: #FEFEFE;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
 .box1 {
     position: relative;
 }

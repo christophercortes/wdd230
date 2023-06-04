@@ -78,6 +78,10 @@
 
     /*discover.html*/
 
+    main img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
     .picture {
         width: 70%;
         margin: 0 auto;
