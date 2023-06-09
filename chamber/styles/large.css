@@ -130,6 +130,13 @@
     }
     /*discover.html ends here*/
 
+    form {
+        grid-column: 1 / 4;
+        grid-row: 1 / 4;
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .footerlogo img {
         margin-top: 20px;
         height: 110px;

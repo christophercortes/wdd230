@@ -122,6 +122,51 @@ main h2 {
     font-size: 2rem;
 }
 
+/*Join Page*/
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #031b29;
+    border-radius: 10px;
+    padding: 2rem;   
+}
+
+form legend {
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #031b29;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+form label.first {
+    display: block;
+    padding-top: 1rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+form label.first input, textarea, select {
+    display: block;
+    font-size: 1rem;
+    border-radius: 3px;
+    padding: .75rem;
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.second input {
+    display: none;
+}
+
+form input.submitBtn {
+    background-color: darkgray;
+    color: #031b29;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+}
+
+/* ends here */
+
 .box1 {
     position: relative;
 }
@@ -244,7 +289,7 @@ hr.solid2 {
 .visit, .todays {
     /* grid-column: 1;
     grid-row: 1 / 2; */
-    width: fit-content;
+    /* width: fit-content; */
     border: 1px solid;
     padding: 10px;
     background-color: #021012;
