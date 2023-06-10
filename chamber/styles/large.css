@@ -134,7 +134,7 @@
     form {
         grid-column: 1 / 4;
         grid-row: 1 / 4;
-        width: 90%;
+        width: 50%;
         margin: 0 auto;
     }
 
