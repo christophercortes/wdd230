@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;
+    background-color: grey;
+    padding: 0 0 10% 0;
+    margin: 10%;
+}
+
+p {
+    font-weight: bold;
+}
