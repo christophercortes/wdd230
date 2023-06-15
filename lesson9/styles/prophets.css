@@ -2,6 +2,17 @@ body {
     text-align: center;
 }
 
+h1, footer {
+    background-color: grey;
+    color: black;
+    padding: 10%;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: lightgray;
+}
+
 section {
     border: 1px solid black;
     background-color: grey;
@@ -11,4 +22,18 @@ section {
 
 p {
     font-weight: bold;
+    font-size: 1rem;
+    line-height: 5px;
+    color: black;
+}
+
+img {
+    width: 80%;
+    height: 100%;
+    border: 2px solid black;
+    box-shadow: 0 0 30px;
+}
+
+footer {
+    font-size: 1rem;
 }
