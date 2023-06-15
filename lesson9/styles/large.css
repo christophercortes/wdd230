@@ -4,15 +4,11 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    h1 {
-        padding: 5%;
+    h1, footer {
+        padding: 2%;
     }
 
     img {
         height: auto;
-    }
-
-    footer {
-        padding: 5%;
     }
 }
