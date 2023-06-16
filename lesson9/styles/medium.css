@@ -3,6 +3,19 @@
         font-size: 3rem;
     }
 
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    p {
+        font-size: .8rem;
+    }
+
+    img {
+        height: auto;
+    }
+
     footer {
         font-size: 2rem;
     }
