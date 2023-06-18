@@ -105,6 +105,31 @@
     }
     /*discover.html ends here*/
 
+    /*directory.html*/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+    .discoveryh2 h2 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    section p {
+        font-size: 1rem;
+    }
+
+    section a {
+        font-size: 1rem;
+    } 
+    /*discovery.html ends here*/
+
     .first {
         display: flex;
         justify-content: space-around;

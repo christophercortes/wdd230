@@ -144,6 +144,24 @@
     }
     /*join page ends here*/
 
+    /*directory.html*/
+    .discoveryh2 h2 {
+        display: grid;
+        grid-template-columns: max-content;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: 1 / 4;
+        grid-row: 1 / 4;
+    }
+
+    .menu {
+        grid-column: 1 / 4;
+        grid-row: 1;
+    }
+    /*directory.html ends here*/
+
     .footerlogo img {
         margin-top: 20px;
         height: 110px;

@@ -1,0 +1,76 @@
+{
+    "members": [
+    {
+        "companyName": "Puerto San Antonio",
+        "address": "Av. Antonio Núñez de Fonseca #1552, San Antonio - Chile", 
+        "phoneNumber": "(56) 35 2586000",
+        "websiteUrl": "https://www.puertosanantonio.com/en/",
+        "imageUrl": "https://www.puertosanantonio.com/psa/site/artic/20200514/imag/foto_0000000120200514175959/logo_main.png",
+        "membershipLevel": "Gold Membership"
+    },
+    {
+        "companyName": "Mediterranean Shipping Company (Chile) S.A",
+        "address": "Chemin Rieu 12, 1208 Genf - Schweiz", 
+        "phoneNumber": "(41) 227038888",
+        "websiteUrl": "https://www.msc.com/",
+        "imageUrl": "https://www.msc.com/-/media/images/msc-cargo/vessels/2010/3/msc20003552.jpg?w=1920&hash=C6F9B7B3273CC56C1289DB1EB93683AA",
+        "membershipLevel": "Gold Membership"
+    },
+    {
+        "companyName": "Puerto Panul S.A",
+        "address": "Av. Antonio Núñez de Fonseca #440, San Antonio - Chile", 
+        "phoneNumber": "(56) 35 235 5900",
+        "websiteUrl": "https://panul.cl/",
+        "imageUrl": "https://panul.cl/wp-content/uploads/2018/05/logo_puertopanul.png",
+        "membershipLevel": "Gold Membership"
+    },
+    {
+        "companyName": "Puerto Central S.A",
+        "address": "San Antonio - Chile", 
+        "phoneNumber": "(56) 35 238 9021",
+        "websiteUrl": "https://www.dpworld.com/",
+        "imageUrl": "https://dpwprod.azureedge.net/san-antonio/-/media/project/dpwg/dpwg-tenant/shared/images/logo-new.svg?rev=4c9ab5674a2d48b3b27fe45fcfb23345&h=35&w=157&la=en&hash=FAF52491D3F407B6C38B10FD5D31BBE9",
+        "membershipLevel": "Gold Membership"
+    },
+    {
+        "companyName": "San Antonio Terminal Internacional S.A",
+        "address": "Av. Ramon Barros Luco #1613 San Antonio, Chile", 
+        "phoneNumber": "(56) 35 2201600",
+        "websiteUrl": "https://stiport.com/",
+        "imageUrl": "https://www.puertosanantonio.com/psa/site/artic/20200528/imag/foto_0000001620200528210018/sti.png",
+        "membershipLevel": "Gold Membership"
+    },
+    {
+        "companyName": "Ultramar Agencia Marítima Ltda.",
+        "address": "El Bosque Norte #500 Las Condes - Santiago - Chile", 
+        "phoneNumber": "(56) 2 2630 1800",
+        "websiteUrl": "https://www.ultramar.cl/en/ultramar-2/",
+        "imageUrl": "https://www.ultramar.cl/wp-content/uploads/2023/01/logo-ultramar.png",
+        "membershipLevel": "Bronze Membership"
+    },
+    {
+        "companyName": "Ultraport Ltda.",
+        "address": "Errazuriz #854, Valparaiso - Chile", 
+        "phoneNumber": "(56) 9 90251390",
+        "websiteUrl": "https://www.ultraport.cl/",
+        "imageUrl": "https://www.ultraport.cl/img/ultraport.svg",
+        "membershipLevel": "Bronze Membership"
+    },
+    {
+        "companyName": "Ministerio de Transportes y Telecomunicaciones",
+        "address": "Amunátegui #139, Santiago, Chile", 
+        "phoneNumber": "(56) 2 2421 3000",
+        "websiteUrl": "https://www.mtt.gob.cl/",
+        "imageUrl": "https://www.mtt.gob.cl/wp-content/uploads/2014/02/maritimo-portuario2.png",
+        "membershipLevel": "NP Membership is for non-profit organizations and there is no fee"
+    },
+    {
+        "companyName": "Transmares",
+        "address": "Av. El Bosque Norte 500 20th Floor - Santiago - Chile", 
+        "phoneNumber": "(56) 2 2630 1100",
+        "websiteUrl": "https://www.transmares.cl/en/transmares-us/",
+        "imageUrl": "https://www.transmares.cl/wp-content/uploads/2019/10/logo_transmares-1.jpg",
+        "membershipLevel": "Gold Membership"
+    }
+]
+}
