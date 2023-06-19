@@ -106,10 +106,16 @@
     /*discover.html ends here*/
 
     /*directory.html*/
+    section {
+        margin: 5%;
+    }
+
+    .grid section {
+        margin: 5%;
+    }
     .cards {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        
+        grid-template-columns: 1fr 1fr;        
     }
     
     .discoveryh2 h2 {
@@ -128,6 +134,15 @@
     section a {
         font-size: 1rem;
     } 
+
+    .list  {
+        display: flex;
+    }
+
+    .list section h2 {
+        font-size: 1rem;
+        font-weight: bold;
+    }    
     /*discovery.html ends here*/
 
     .first {

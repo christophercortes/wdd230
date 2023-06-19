@@ -1,4 +1,7 @@
 const file = "scripts/data.json";
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("div.cards");
 
 async function getMembersData() {
     const response = await fetch(file);
@@ -43,17 +46,12 @@ const displayMembers = (members) => {
     })
 }
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("div.cards");
-
 gridbutton.addEventListener("click", () => {
-    display.classList.add("grid");
-    display.classList.remove("list");
+     display.classList.add("grid");
+     display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); 
-function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
-}
+listbutton.addEventListener("click", () => { 
+     display.classList.add("list");
+     display.classList.remove("grid");
+});

@@ -154,11 +154,16 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-column: 1 / 4;
         grid-row: 1 / 4;
+        margin-top: 40px;
     }
 
     .menu {
         grid-column: 1 / 4;
         grid-row: 1;
+    }
+
+    .list section h2, .list a {
+        font-size: 2rem;
     }
     /*directory.html ends here*/
 
