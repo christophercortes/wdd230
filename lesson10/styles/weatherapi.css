@@ -1,10 +1,12 @@
-main {
+body {
     width: 600px;
     margin: 0 auto;
     text-align: center;
+}
+
+main {
     border: 2px solid black;
     padding-top: 20px;
-    margin-top: 20px;
     background-color: aliceblue;
 }
 
@@ -19,3 +21,9 @@ a {
     font-weight: bold;
 }
 
+header, footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+}
