@@ -69,14 +69,18 @@
         <div class="box3">
             <h2>Weather</h2>
             <div class="weatherframe">
-                <p class="emoji">☀️</p>
-                <p class="celcius">68&deg;F</p>
+                <figure>
+                    <img src="" alt="" class="emoji">
+                    <p><span class="box3two"></span>&deg;C</p>
+                </figure>
+                <!-- <p class="emoji">☀️</p>
+                <p class="celcius">68&deg;F</p> -->
             </div>
             <p class="weathercondition">Mostly Sunny</p>
             <hr class="solid2">
             <div class="weatherinformation">
                 <p class="box3one">Wind Speed:</p>
-                <p class="box3two">3.1 mp/h</p>
+                <p><span class="windspeed"></span>km/h</p>
                 <p class="box3three">Wind Chill:</p>
                 <p class="box3four"><span id="windChill"></span></p>
                 <script src="scripts/windchill.js"></script>
@@ -142,6 +146,7 @@
             </div>
         </div>
         <script src="scripts/menubtn.js"></script>
+        <script src="scripts/weatherapi.js"></script>
     </footer>
 </body>
 
