@@ -7,11 +7,18 @@
     }
 
     h1 {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
-    #medias {
+    /* #medias {
         padding-top: 10px;
+    } */
+
+    nav button {
+        font-size: 2rem;
+        margin-top: -55px;
+        margin-left: 30px;
+        border: solid .3rem;
     }
 
     /* Join Page*/
@@ -20,12 +27,12 @@
 
     .box1 h2 {
         top: 100px;
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
-    .box1 h2::after {
+    /* .box1 h2::after {
         content: ": Medium";
-    }
+    } */
 
     .box1 a {
         position: absolute; 
@@ -64,7 +71,8 @@
         display: block;
         background-color: #031b29;
         margin: 1rem;
-        padding: 10px;
+        padding: 20px;
+        font-size: 1.3rem;
         color: #FEFEFE;
     }
 
@@ -73,11 +81,20 @@
         grid-column: 1;
         width: 65%;
     }
+
+    .box2 h2 {
+        margin-top: 20%;
+    }
+
     .box3 {
         grid-column: 1;
         grid-row: 5;
         width: 31%;
         margin-left: auto;
+    }
+
+    .openweather, section p, a {
+        font-size: .8rem;
     }
 
     /*discover.html*/

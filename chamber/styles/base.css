@@ -31,7 +31,7 @@ img {
 }
 
 h1 {
-    font-size: .8em;
+    font-size: .7em;
     margin-top: 20px;
 }
 
@@ -79,7 +79,7 @@ nav ul.open {
 
 nav ul li a {
     display: block;
-    padding: .8rem 2vw;
+    padding: 1.5rem 2vw;
     text-decoration: none;
     background-color: #021012;
     color: #FEFEFE;
@@ -125,7 +125,7 @@ main {
 
 main h2 {
     color: #031b29;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .openweather {
@@ -138,7 +138,7 @@ form fieldset {
     margin: 2rem 0;
     border: 1px solid #031b29;
     border-radius: 10px;
-    padding: 2rem;   
+    padding: 0 3rem 1rem 1rem;   
 }
 
 form legend {
@@ -163,9 +163,9 @@ form label.first input, textarea, select {
     background-color: rgba(0,0,0,0.1);
 }
 
-.second input {
+/* .second input {
     display: none;
-}
+} */
 
 form input.submitBtn {
     background-color: darkgray;
@@ -231,7 +231,7 @@ section h2 {
 }
 
 section p, a {
-    font-size: .6rem;
+    font-size: 1rem;
     text-align: center;
     color: #021012;
 }
@@ -265,14 +265,14 @@ section img {
 .box1 h2 {
     position: absolute;
     top: 30px;
-    left: 30px;
-    font-size: 1.5rem;
+    left: 20px;
+    font-size: .9rem;
     color: #021012;
 }
 
-.box1 h2::after {
+/* .box1 h2::after {
     content: ": Small";
-}
+} */
 
 .box1 a {
     position: absolute;
@@ -280,7 +280,7 @@ section img {
     right: 30px;
     top: 180px;
     background-color: #031b29;
-    padding: 10px;
+    padding: 15px;
     color: #FEFEFE;
 }
 
@@ -298,17 +298,22 @@ section img {
 }
 
 .box3 .weatherframe {
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
     line-height: .1;
 }
 
 .box3 .weathercondition {
     margin: 0;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .box3 .emoji {
-    font-size: 3rem;
+    width: 70px;
+    height: 70px;
+}
+
+.box3two {
+    font-size: 2rem;
 }
 
 .box3 .celcius {
@@ -345,9 +350,13 @@ hr.solid2 {
     margin-bottom: 0;
 }
 
-.box6 .truck {
+/* .box6 .truck {
     font-size: 4rem;
     line-height: .1;
+} */
+.box6 img, .box7 img, .box9 img {
+    width: 200px;
+    height: 150px;
 }
 
 .box7 {
@@ -357,10 +366,11 @@ hr.solid2 {
     margin-top: 0;
 }
 
-.box7 .truck2 {
+/* .box7 .truck2 {
     font-size: 4rem;
     line-height: .1;
-}
+} */
+
 .box8 {
     display: none;
 }
