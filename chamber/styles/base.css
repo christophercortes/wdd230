@@ -178,7 +178,7 @@ form input.submitBtn {
 
 /* ends here */
 
-/*discovery.html*/
+/*discover.html*/
 section {
     border: 2px solid black;
     background-color: lightgray;
@@ -249,7 +249,7 @@ section img {
     width: 100px;
     height: auto;
 }
-/*discovery.html ends here*/
+/*discover.html ends here*/
 
 .box1 {
     position: relative;
@@ -386,11 +386,19 @@ hr.solid2 {
     /* width: fit-content; */
     border: 1px solid;
     padding: 10px;
+    text-align: center;
     background-color: #021012;
     color: #FEFEFE;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.visit {
+    margin-bottom: 0;
+}
+
+.todays {
+    margin-top: 0;
+}
 .picture {
     width: 90%;
     margin: 0 auto;

@@ -145,6 +145,10 @@
     .picture img {
         margin-top: 30px;
     }
+
+    .visit, .todays {
+        grid-column: 2;
+    }
     /*discover.html ends here*/
 
     /*join page starts here*/
