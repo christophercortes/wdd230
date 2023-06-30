@@ -37,7 +37,7 @@ h1 {
 }
 
 a:hover {
-    background-color: #031b29;
+    /* background-color: #031b29; */
     color: #FEFEFE;
     margin-left: 5px;
 }
