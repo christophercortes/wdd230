@@ -203,10 +203,10 @@ section {
     margin: 0;
     border: 1px solid black;    
 }
-
+/* 
 .list section h2, a {
     font-size: .5rem;
-}
+} */
 
 .list section a {
     font-weight: normal;
@@ -247,9 +247,10 @@ section a {
 section img {
     display: block;
     margin: 20px auto 20px auto;
-    width: 100px;
-    height: auto;
+    width: 200px;
+    height: 80px;
 }
+
 /*discover.html ends here*/
 
 .box1 {

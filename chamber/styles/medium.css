@@ -93,6 +93,10 @@
         margin-left: auto;
     }
 
+    .box3 img:hover {
+        box-shadow: none;
+    }
+
     .openweather, section p, a {
         font-size: .8rem;
     }
@@ -128,7 +132,7 @@
     }
 
     .grid section {
-        margin: 5%;
+        margin: 0 1rem 1rem 0;
     }
     .cards {
         display: grid;
@@ -140,17 +144,21 @@
     }
 
     section h2 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         margin-top: 10px;
     }
 
     section p {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     section a {
-        font-size: 1rem;
+        font-size: .8rem;
     } 
+
+    section img:hover {
+        box-shadow: none;
+    }
 
     .list  {
         display: flex;
