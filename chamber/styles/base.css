@@ -134,6 +134,10 @@ main h2 {
     text-align: center;
 }
 
+.openweather a {
+    color: #021012;
+}
+
 /*Join Page*/
 form fieldset {
     margin: 2rem 0;
