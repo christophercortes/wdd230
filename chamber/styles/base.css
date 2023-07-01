@@ -80,7 +80,7 @@ nav ul.open {
 
 nav ul li a {
     display: block;
-    padding: 1.5rem 2vw;
+    padding: 1.1rem 2vw; /*or 1.5*/
     text-decoration: none;
     background-color: #021012;
     color: #FEFEFE;
@@ -458,4 +458,14 @@ footer {
 hr.solid {
     width: 19em;
     border-top: 0.1rem solid #FEFEFE;
+}
+
+/*contact.html*/
+.radio {
+    display: block;
+    margin: 10px 0 10px 0;    
+}
+
+input[type="radio"] {
+    margin-right: 10px;
 }

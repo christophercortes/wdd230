@@ -3,22 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Christopher E. Cortes. Brigham Young University-Idaho projects.">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <title>The Discover Page - Image Section</title>
+    <title>Contact Page</title>
 </head>
 
 <body>
     <header>
         <p class="banner">🫱🏼‍🫲🏻Come join us for the chamber meet and greet Wednesday at 7:00 p.m. </p>
+
         <img src="images/logo_small.webp" alt="San Antonio Port City Logo">
 
+
         <h1>San Antonio Port City</h1>
+
 
         <div id="medias">
             <a href="https://www.facebook.com/" target="_blank">
@@ -29,6 +32,7 @@
             </a>
         </div>
     </header>
+
     <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
@@ -45,48 +49,31 @@
     </div>
 
     <main>
-        <p class="visit">Number of Visits: <span class="visits"></span></p>
-        <p class="todays">Timestamp upon page load: <span class="today"></span></p>
-        <div class="picture">
-            <div class="info">
-                <h2>San Antonio, Chile</h2>
-                <img src="images/placeholder-image.png" data-src="images/sanantoniocity.webp" alt="information">
-                <p>San Antonio is a Chilean port city, commune, and the capital of the San Antonio Province in the
-                    Valparaíso Region.
-                    It has become the main freight port in Chile, surpassing Valparaíso in the 21st century. San Antonio
-                    is also the hub of the
-                    fishing area that stretches along the Chilean coast from Rocas de Santo Domingo to Cartagena.</p>
-            </div>
-            <div class="attraction">
-                <h2>Attraction</h2>
-                <img src="images/placeholder-image.png" data-src="images/san-antonio-cruise-port-transfer.webp"
-                    alt="Tourist Attractions">
-                <p>Approximately 50 international cruise ships call on San Antonio during the 4-month Chilean summer,
-                    mostly as part of a long
-                    South American itinerary.</p>
-            </div>
-            <div class="location">
-                <h2>Location</h2>
-                <img src="images/placeholder-image.png" data-src="images/sanantonio_location_map.webp" alt="location">
-                <p>Country: Chile<br>Region: Valparaiso<br>Province: San Antonio</p>
-            </div>
-            <div class="geography">
-                <h2>Geography</h2>
-                <img src="images/placeholder-image.png" data-src="images/Llolleo_Desembocadura_Río_Maipo.webp"
-                    alt="geography">
-                <p>The commune is located on hills and coastal dunes, immediately to the north of the mouth of the Maipo
-                    River.</p>
-            </div>
-            <div class="puerto">
-                <h2>Seaport</h2>
-                <img src="images/placeholder-image.png" data-src="images/Descarga.webp" alt="puerto">
-                <p>The main economic source of the commune is the port of San Antonio, which is located in a natural
-                    bay, called San Antonio Bay, and protected from the North winds by the Centinela Hill.</p>
-            </div>
-        </div>
-        <script src="scripts/laztload.js"></script>
-
+        <form method="get">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label class="first">Name*<input type="text" name="fname" placeholder="Chris Cortes"></label>
+                <label class="first">Organization*<input type="text" name="title" placeholder="Company, Inc."
+                        required></label>
+                <label class="first">Telephone Number*<input type="tel" placeholder="+56 12345678"></label>
+                <label class="first">Email Address*<input type="email" name="email"
+                        placeholder="contact@mail.com"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Are you a Chamber Member? *</legend>
+                <label class="radio"><input type="radio" name="audience" value="yes">Yes</label>
+                <label class="radio"><input type="radio" name="audience" value="no">No</label>
+                <label class="radio"><input type="radio" name="audience" value="notsure">Not sure</label>
+            </fieldset>
+            <fieldset>
+            <legend>Leave us a message*</legend>
+            <label class="first">What concern do you have for us?<textarea name="description"
+                    placeholder="Leave your question here..."></textarea></label>
+            </fieldset>
+            <input type="submit" value="Submit" class="submitBtn">
+        </form>
     </main>
+
     <footer>
         <div class="first">
             <div class="footerlogo">
@@ -117,7 +104,6 @@
             </div>
         </div>
         <script src="scripts/menubtn.js"></script>
-        <script src="scripts/localstorage.js"></script>
     </footer>
 </body>
 
