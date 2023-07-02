@@ -49,15 +49,31 @@
     </div>
 
     <main>
+        <div class="contactus">
+            <div class="contactus1">
+                <h3>San Antonio Port City</h3>
+                <p>San Antonio V región Chile 2660000</p>
+                <p>+56 9 5431 6358</p>
+                <p>christopher.cortes.eduardo@gmail.com</p>
+            </div>
+            <hr class="line">
+            <div class="contactus2">
+                <h3>Visit Us</h3>
+                <p>Monday - Friday</p>
+                <p>8:00 a.m. to 4:00 p.m.</p>
+                <p>Weekends and Holidays</p>
+                <p>closed</p>
+            </div>
+        </div>
         <form method="get">
             <fieldset>
                 <legend>Contact Us</legend>
-                <label class="first">Name*<input type="text" name="fname" placeholder="Chris Cortes"></label>
+                <label class="first">Name*<input type="text" name="fname" placeholder="Chris Cortes" required></label>
                 <label class="first">Organization*<input type="text" name="title" placeholder="Company, Inc."
                         required></label>
-                <label class="first">Telephone Number*<input type="tel" placeholder="+56 12345678"></label>
-                <label class="first">Email Address*<input type="email" name="email"
-                        placeholder="contact@mail.com"></label>
+                <label class="first">Telephone Number*<input type="tel" placeholder="+56 12345678" required></label>
+                <label class="first">Email Address*<input type="email" name="email" placeholder="contact@mail.com"
+                        required></label>
             </fieldset>
             <fieldset>
                 <legend>Are you a Chamber Member? *</legend>
@@ -66,9 +82,9 @@
                 <label class="radio"><input type="radio" name="audience" value="notsure">Not sure</label>
             </fieldset>
             <fieldset>
-            <legend>Leave us a message*</legend>
-            <label class="first">What concern do you have for us?<textarea name="description"
-                    placeholder="Leave your question here..."></textarea></label>
+                <legend>Leave us a message*</legend>
+                <label class="first">What concern do you have for us?<textarea name="description"
+                        placeholder="Leave your question here..." required></textarea></label>
             </fieldset>
             <input type="submit" value="Submit" class="submitBtn">
         </form>

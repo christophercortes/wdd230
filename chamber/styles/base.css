@@ -168,10 +168,6 @@ form label.first input, textarea, select {
     background-color: rgba(0,0,0,0.1);
 }
 
-/* .second input {
-    display: none;
-} */
-
 form input.submitBtn {
     background-color: darkgray;
     color: #031b29;
@@ -207,10 +203,6 @@ section {
     margin: 0;
     border: 1px solid black;    
 }
-/* 
-.list section h2, a {
-    font-size: .5rem;
-} */
 
 .list section a {
     font-weight: normal;
@@ -276,10 +268,6 @@ section img {
     color: #021012;
 }
 
-/* .box1 h2::after {
-    content: ": Small";
-} */
-
 .box1 a {
     position: absolute;
     border-radius: .6rem;
@@ -297,15 +285,11 @@ section img {
 }
 
 .box3 {
-    /* width: 80%; I need to see a better way to adjust the size
-    margin: 0 auto; */
     text-align: center;
     border: 1px solid;
 }
 
 .box3 .weatherframe {
-    /* display: flex;
-    justify-content: space-evenly; */
     line-height: .1;
 }
 
@@ -356,10 +340,6 @@ hr.solid2 {
     margin-bottom: 0;
 }
 
-/* .box6 .truck {
-    font-size: 4rem;
-    line-height: .1;
-} */
 .box6 img, .box7 img, .box9 img {
     width: 200px;
     height: 150px;
@@ -372,11 +352,6 @@ hr.solid2 {
     margin-top: 0;
 }
 
-/* .box7 .truck2 {
-    font-size: 4rem;
-    line-height: .1;
-} */
-
 .box8 {
     display: none;
 }
@@ -387,9 +362,6 @@ hr.solid2 {
 
 /*discover.html*/
 .visit, .todays {
-    /* grid-column: 1;
-    grid-row: 1 / 2; */
-    /* width: fit-content; */
     border: 1px solid;
     padding: 10px;
     text-align: center;
@@ -468,4 +440,14 @@ hr.solid {
 
 input[type="radio"] {
     margin-right: 10px;
+}
+
+.contactus h3, main h2 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.contactus p {
+    font-size: .7rem;
+    text-align: center;
 }

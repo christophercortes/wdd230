@@ -92,10 +92,6 @@
         margin-top: 400px;
     }
 
-    /* .box1 h2::after {
-        content: ": Large";
-    } */
-
     .box4 {
         grid-column: 2;
         grid-row: 3
@@ -212,5 +208,17 @@
 
     .footerdate, .second {
         font-size: 1.2rem;
+    }
+
+    .contactus {
+        grid-column: 2;
+    }
+
+    .contactus h3 {
+        font-size: 2rem;
+    }
+
+    .contactus p {
+        font-size: 1rem;
     }
 }
