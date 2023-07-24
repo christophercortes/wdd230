@@ -1,0 +1,84 @@
+@media only screen and (min-width: 64em) {
+    nav button {
+        display: none;
+    }
+
+    nav ul#navigation {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #063751;
+    }
+
+    .firstsection {
+        width: 900px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .sectionone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstsection img, .secondsection img {
+        width: 100%;
+        height: 400px;
+        margin: 0;
+    }
+
+    .firstsection p {
+        margin: 10px;
+    }
+
+    .mainsectiontwo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20PX;
+    }
+
+    .secondsection, .thirdsection, .fourthsection, #weathersection {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .secondsection {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    .secondsection a {
+        top: 310px;
+    }
+
+    .thirdsection {
+        grid-row: 2;
+    }
+
+    .fourthsection {
+        grid-row: 3;
+        margin-bottom: 20PX;
+    }
+
+    #weathersection {
+        grid-row: 2 / 3;
+    }
+
+    /*ABOUT US*/
+
+    .aboutus img {
+        width: 70%;
+        margin-left: 260px;
+    }
+
+    .aboutus p {
+        margin: 80px;
+        font-size: 1.8rem;
+    }
+
+    .map img {
+        width: min-content;
+        margin-left: 40rem;
+    }
+}

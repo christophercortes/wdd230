@@ -7,7 +7,7 @@ const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu; 
 
 const date = new Date();
-document.getElementById("date").textContent = new Date().toDateString("en-US", date)
+document.getElementById("date").textContent = new Date().toDateString("en-US", date);
 
 document.getElementById("currentdate").textContent = document.lastModified;
 const year = new Date();

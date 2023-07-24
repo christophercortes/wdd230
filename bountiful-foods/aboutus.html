@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us Page</title>
+    <meta name="description" content="About us page to my Brigham Young University-Idaho Bountiful Foods final projects">
+    <link rel="icon" href="">
+    <Link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Bountiful Foods Project</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo-image">
+            <img src="images/bountifulFlogo.png" alt="page logo">
+        </div>
+        <div class="headersection">
+
+            <h1>Welcome to Bountiful Foods</h1>
+            <div class="socialmedias">
+                <a href="" target="_blank">
+                    <img src="images/facebook.png" alt="facebook logo">
+                </a>
+                <a href="" target="_blank">
+                    <img src="images/Twitter.webp" alt="twitter logo">
+                </a>
+                <a href="" target="_blank">
+                    <img src="images/instagram.png" alt="instagram logo">
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="navigation">
+            <li><a href="https://christophercortes.github.io/wdd230/bountiful-foods/index.html">Home</a></li>
+            <li><a href="https://christophercortes.github.io/wdd230/bountiful-foods/fresh.html">Fresh</a></li>
+            <li><a href="https://christophercortes.github.io/wdd230/bountiful-foods/aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="aboutus">
+            <h2>Historical Information</h2>
+            <img src="images/farm.jpg" alt="farm">
+            <p>Bountiful Foods is a renowned baking and catering company in the United States. It is located in the coastal area of California.
+                Chef and owner Denise Assad is who started this company business. It is also important to learn about the "Denise's mission" which is to create homemade food.
+            </p>
+            <div class="map">
+                <a href="https://www.google.com/maps/place/Orange+County,+CA,+USA/@33.6402077,-118.4397841,9z/data=!3m1!4b1!4m6!3m5!1s0x80dc925c54d5f7cf:0xdea6c3618ff0d607!8m2!3d33.7174708!4d-117.8311428!16zL20vMGNiNGo?entry=ttu" target="_blank">
+                    <img src="images/map.png" alt="google map">
+                </a>
+            </div>
+            <p>To learn more about what you can get from us. Please visist us at the <a href="https://www.bountifulfoods.org/">Bountiful Foods</a></p>           
+        </div>        
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="images/bountifulFlogo.png" alt="page logo">
+            <div class="footerdate">
+                <p>&copy; <span id="year"></span>&nbsp;bountiful foods&nbsp;</p>
+                <P><b>Christopher E. Cortés&nbsp;</b></P>
+                <P>&nbsp;Last Modification: <span id="currentdate"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/menubtn.js"></script>
+    <script src="scripts/localstorage.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/date.js"></script>
 </body>
+
 </html>

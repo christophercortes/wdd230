@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fresh Page</title>
+    <meta name="description" content="Fresh page to my Brigham Young University-Idaho Bountiful Foods final projects">
+    <link rel="icon" href="">
+    <Link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Bountiful Foods Project</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo-image">
+            <img src="images/bountifulFlogo.png" alt="page logo">
+        </div>
+        <div class="headersection">
+
+            <h1>Welcome to Bountiful Foods</h1>
+            <div class="socialmedias">
+                <a href="" target="_blank">
+                    <img src="images/facebook.png" alt="facebook logo">
+                </a>
+                <a href="" target="_blank">
+                    <img src="images/Twitter.webp" alt="twitter logo">
+                </a>
+                <a href="" target="_blank">
+                    <img src="images/instagram.png" alt="instagram logo">
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="navigation">
+            <li><a href="https://christophercortes.github.io/wdd230/bountiful-foods/index.html">Home</a></li>
+            <li><a href="https://christophercortes.github.io/wdd230/bountiful-foods/fresh.html">Fresh</a></li>
+            <li><a href="https://christophercortes.github.io/wdd230/bountiful-foods/aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <form id="inputForm" method="post">
+            <fieldset>
+                <legend>Information</legend>
+                <label class="first">First Name:<input type="text" id="name" name="name"
+                        placeholder="your name comes here!" required></label>
+                <label class="first">Email Address:<input type="email" id="email" name="email"
+                        placeholder="conctact@mail.com" required></label>
+                <label class="first">Phone Number:<input type="tel" id="phone" name="phone"
+                        placeholder="1 - 1234 - 5678" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Select Fruit options</legend>
+                <label class="first">First Option:<select id="optionSelection" name="optionSelection"></select></label>
+                <label class="first">Second Option:<select id="optionSelection2"
+                        name="optionSelection2"></select></label>
+                <label class="first">Third Option:<select id="optionSelection3"
+                        name="optionSelection3"></select></label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instructions</legend>
+                <label class="first">Add important information for the preparation:<textarea id="textarea"
+                        name="textarea" placeholder="Add what you think to improve the..." required></textarea>
+                </label>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="summary">
+            <h2>Important information will be displayed here:</h2>
+            <div><span id="orderDateDisplay"></span></div>
+            <div id="output"></div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="images/bountifulFlogo.png" alt="page logo">
+            <div class="footerdate">
+                <p>&copy; <span id="year"></span>&nbsp;bountiful foods&nbsp;</p>
+                <P><b>Christopher E. Cortés&nbsp;</b></P>
+                <P>&nbsp;Last Modification: <span id="currentdate"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/menubtn.js"></script>
+    <script src="scripts/localstorage.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/fruit.js"></script>
 </body>
+
 </html>

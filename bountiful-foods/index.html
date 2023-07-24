@@ -4,60 +4,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page to my Brigham Young University-Idaho Bountiful Foods final projects">
+    <link rel="icon" href="">
+    <Link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <title>Bountiful Foods Project</title>
 </head>
 
 <body>
     <header>
+        <div class="logo-image">
+            <img src="images/bountifulFlogo.png" alt="page logo">
+        </div>
         <div class="headersection">
-            <h1>BOUNTIFUL FOODS</h1>
+
+            <h1>Welcome to Bountiful Foods</h1>
             <div class="socialmedias">
                 <a href="" target="_blank">
-                    <img src="" alt="facebook logo">
+                    <img src="images/facebook.png" alt="facebook logo">
                 </a>
                 <a href="" target="_blank">
-                    <img src="" alt="twitter logo">
+                    <img src="images/Twitter.webp" alt="twitter logo">
                 </a>
                 <a href="" target="_blank">
-                    <img src="" alt="instagram logo">
+                    <img src="images/instagram.png" alt="instagram logo">
                 </a>
             </div>
         </div>
     </header>
     <nav>
-        <button id="hamburguerBtn"><span>&#9776</span><span>X</span></button>
+        <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="navigation">
-            <li><a href=""></a>Home</li>
-            <li><a href=""></a>Fresh</li>
-            <li><a href=""></a>About Us</li>
+            <li><a href="https://christophercortes.github.io/wdd230/bountiful-foods/index.html">Home</a></li>
+            <li><a href="https://christophercortes.github.io/wdd230/bountiful-foods/fresh.html">Fresh</a></li>
+            <li><a href="https://christophercortes.github.io/wdd230/bountiful-foods/aboutus.html">About Us</a></li>
         </ul>
     </nav>
     <main>
         <div class="mainsection">
-            <h2>Welcome to the Bountiful Foods Page</h2>
-            <div class="firstsectionbox">
-                <img src="" alt="">
-                <p>...</p>
+            <div class="firstsection">
+                <h2>Orange County</h2>
+                <div class="sectionone">
+                    <img src="images/orange county.webp" alt="beach">
+                    <p>Orange County is sandwiched between the large urban metropolises of San Diego and LA.
+                        The OC coastal cities are smaller in size, but they compete in the quantity and quality of
+                        beaches.</p>
+                </div>
             </div>
-            <div class="secondsectionbox">
-                <img src="" alt="">
-                <p>...</p>
-            </div>
-            <div class="thirdsectionbox">
-                <img src="" alt="">
-                <p>...</p>
-            </div>
-            <div class="weathersectionbox">
-                <img src="" alt="">
-                <p>...</p>
+            <div class="mainsectiontwo">
+                <div class="secondsection">
+                    <h2>Our specialties</h2>
+                    <div class="sectiontwo">
+                        <img src="images/drinks.jpg" alt="call to action">
+                        <p>We can help you to prepare your own drinks.</p>
+                        <a href="https://christophercortes.github.io/wdd230/bountiful-foods/fresh.html">Visit the Fresh
+                            Page</a>
+                    </div>
+                </div>
+                <div class="thirdsection">
+                    <h2>Information Card</h2>
+                    <p>visits:<span id="visits"></span></p>
+                    <img src="" alt="">
+                    <p>...</p>
+                </div>
+                <div class="fourthsection">
+                    <h2>Contact information</h2>
+                    <p>You can learn more about us visiting the following link<a
+                            href="https://www.bountifulfoods.org/">bountiful-foods</a></p>
+                </div>
+
+                <div id="weathersection">
+                    <h2>Current condition weather information</h2>
+                    <figure>
+                        <img src="weather-icon" alt="" id="weather-icon">
+                        <p><span id="temperature"></span>&deg;C</p>
+                        <figcaption></figcaption>
+                    </figure>
+                    <div class="weatherInfo">
+                        <p><span id="description"></span></p>
+                        <p>Humidity: <span id="humidity"></span></p>
+                    </div>
+                    <!-- <p> Today date is: <span id="date"></span></p> -->
+                    <p class="openweather">Information provided by: <a
+                            href="https://openweathermap.org/">OpenWeather</a>
+                    </p>
+                </div>
             </div>
         </div>
     </main>
     <footer>
-        <img src="" alt="">
-        <p>...</p>
-
+        <div class="footer-logo">
+            <img src="images/bountifulFlogo.png" alt="page logo">
+            <div class="footerdate">
+                <p>&copy; <span id="year"></span>&nbsp;bountiful foods&nbsp;</p>
+                <P><b>Christopher E. Cortés&nbsp;</b></P>
+                <P>&nbsp;Last Modification: <span id="currentdate"></span></p>
+            </div>
+        </div>
     </footer>
+    <script src="scripts/menubtn.js"></script>
+    <script src="scripts/localstorage.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/date.js"></script>
 </body>
 
 </html>

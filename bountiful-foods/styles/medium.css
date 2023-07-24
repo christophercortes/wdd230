@@ -1,0 +1,94 @@
+@media only screen and (min-width:32.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav button {
+        font-size: 3rem;
+        margin-top: -11rem;
+        margin-left: 40px;
+    }
+
+    nav ul li a {
+        font-size: 2rem;
+    }
+
+    h1, h2 {
+        font-size: 2rem;
+    }
+
+    .socialmedias img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mainsection {
+        grid-column: 1 / 4;
+    }
+
+    .sectionone, .sectiontwo {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .firstsection img {
+        width: 200%;
+        height: 300px;
+        margin: 0 10px 10px 10px;
+    }
+
+    .firstsection p, .secondsection p {
+        font-size: 1.5rem;
+        margin-right: 10px;
+    }
+
+    .secondsection img {
+        height: 320px;
+        margin: 0 10px 10px 10px;
+    }
+
+    .secondsection a {
+        position: absolute;
+        margin-top: 1154px;
+        font-size: 1.8rem;
+    }
+
+    .thirdsection p, .fourthsection p, #weathersection p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 2rem;
+    }
+
+    /*FRESH PAGE*/
+
+    #inputForm, #output, #summary {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #summary h2 {
+        display: contents;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+    /*ABOUT US*/
+    .aboutus {
+        grid-column: 1 / 3;
+    }
+
+    .aboutus p {
+        margin: 20px 30px 20px 30px;
+        font-size: 1.5rem;
+    }
+
+    .map img {
+        width: 500px;
+        height: 500px;
+        margin-left: 15rem;
+    }
+}

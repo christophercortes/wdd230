@@ -1,0 +1,238 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #063751;
+}
+
+.logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image img {
+    max-width: 30%;
+}
+
+.headersection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: .8rem;
+    text-align: center;
+    color: #FEFEFE;
+}
+
+.socialmedias img {
+    width: 20px;
+    height: 20px;
+}
+
+a:hover {
+    color: #FEFEFE;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav button {
+    float: left;
+    margin-top: -5rem;
+    margin-left: 10px;
+    background: transparent;
+    border: solid 0.2rem;
+    font-size: 1.3rem;
+    color: #FEFEFE;
+}
+
+nav { /*check this */
+    order: 1;
+    background-color: #FEFEFE;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1.1rem 2vw;
+    text-decoration: none;
+    background-color: #063751;
+    color: #FEFEFE;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    font-size: .8rem;
+}
+
+nav ul li a:hover {
+    background-color: #FEFEFE;
+    color: #063751;
+}
+
+#hamburguerBtn span:nth-child(1) { /* fix this */
+    display: block;
+}
+
+#hamburguerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburguerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburguerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+#navigation {
+    text-align: center;
+}
+
+.firstsection, .secondsection,.thirdsection, .fourthsection, #weathersection {
+    border: 2px solid #063751;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #053135;
+}
+
+.firstsection img {
+    width: 100%;
+    height: 190px;
+}
+
+.firstsection p, .secondsection p, .thirdsection p, .fourthsection p {
+    text-align: justify;
+    font-family: sans-serif;
+    margin: 0 5px 0 5px;
+}
+
+.secondsection img {
+    width: 100%;
+    height: 300px;
+}
+
+.secondsection a {
+    position: absolute;
+    margin-left: 20px;
+    top: -100px;
+    border: 1px solid #063751;
+    background-color: red;
+    color: #FEFEFE;
+    padding: 8px;
+}
+
+.fourthsection a {
+    margin-left: 10px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+.weatherInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#weathersection p {
+    text-align: center;
+}
+
+footer {
+    background-color: #063751;
+    color: #FEFEFE;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 30%;
+}
+
+.footer-logo p {
+    text-align: center;
+}
+/*FRESH PAGE*/
+
+form fieldset {
+    border: 1px solid #053135;
+    border-radius: 10px;
+    padding: 0 3rem 1rem 1rem;
+}
+
+form legend {
+    color: #053135;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+form label.first, textarea.first {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+form label input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form button {
+    width: 96%;
+    margin: 2rem 0 2rem 2%;
+    background-color: #063751;
+    border: 1px solid #FEFEFE;
+    color: #FEFEFE;
+    padding: 10px;
+}
+
+#output {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+#summary h2 {
+    display: none;
+}
+
+/*ABOUT US PAGE*/
+.aboutus img {
+    width: 100%;
+}
+
+.aboutus p {
+    text-align: center;
+}
+
+.map img {
+    width: 90%;
+    height: 200px;
+    margin-left: 15px;
+}
