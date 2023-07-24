@@ -7,7 +7,7 @@ const date = document.querySelector("#date");
 const captionDesc = document.querySelector("figcaption");
 
 
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=33.78985&lon=-117.78610&units=metric&appid=8858983065863e23c3d5a33999223d4c";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=33.78985&lon=-117.78610&units=metric&appid=8858983065863e23c3d5a33999223d4c&days=3";
 
 async function apiFetch() {
     try {

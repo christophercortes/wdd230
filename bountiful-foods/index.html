@@ -47,7 +47,7 @@
             <div class="firstsection">
                 <h2>Orange County</h2>
                 <div class="sectionone">
-                    <img src="images/orange county.webp" alt="beach">
+                    <img src="images/placeholder-image.png" data-src="images/orange county.webp" alt="beach">
                     <p>Orange County is sandwiched between the large urban metropolises of San Diego and LA.
                         The OC coastal cities are smaller in size, but they compete in the quantity and quality of
                         beaches.</p>
@@ -57,22 +57,40 @@
                 <div class="secondsection">
                     <h2>Our specialties</h2>
                     <div class="sectiontwo">
-                        <img src="images/drinks.jpg" alt="call to action">
-                        <p>We can help you to prepare your own drinks.</p>
+                        <img src="images/placeholder-image.png" data-src="images/drinks.jpg" alt="call to action">
+                        <p>We can help you to prepare your own drinks. At Bountiful Foods, we are expert preparing
+                            drinks with lost of different organic and fresh fruit. You will not believe what we can do!
+                        </p>
                         <a href="https://christophercortes.github.io/wdd230/bountiful-foods/fresh.html">Visit the Fresh
                             Page</a>
                     </div>
                 </div>
                 <div class="thirdsection">
                     <h2>Information Card</h2>
-                    <p>visits:<span id="visits"></span></p>
-                    <img src="" alt="">
-                    <p>...</p>
+                    <div class="InfoCard">
+                        <p>At Bountiful Foods, we take action in the echosystem. We know that the world is facing
+                            difficult
+                            times and we are here to protect it.
+                            With our organic and fresh products, we take recycle following a frendly process to plant
+                            even
+                            more to have a green place.<br>
+                            Thank you for visiting us<br>
+                            You have visit us <span id="visits"></span> times.</p>
+                        <img src="images/placeholder-image.png" data-src="images/harvesting.jpg" alt="farmers">
+                    </div>
                 </div>
                 <div class="fourthsection">
                     <h2>Contact information</h2>
-                    <p>You can learn more about us visiting the following link<a
-                            href="https://www.bountifulfoods.org/">bountiful-foods</a></p>
+                    <div class="contactInfo">
+                        <img src="images/placeholder-image.png" data-src="images/veggies.jpg" alt="veggies">
+                        <p>We work: Monday - Thursday</p>
+                        <p>from 8:00 to 17:00 hrs</p>
+                        <p>Phone Number: 1 - 801 -747 -8820</p>
+                        <p>We are located at Orange County, CA, USA</p>
+                        <p>You can learn more about us visiting the following link<a
+                                href="https://www.bountifulfoods.org/">bountiful-foods</a></p>
+                    </div>
+
                 </div>
 
                 <div id="weathersection">
@@ -86,7 +104,7 @@
                         <p><span id="description"></span></p>
                         <p>Humidity: <span id="humidity"></span></p>
                     </div>
-                    <!-- <p> Today date is: <span id="date"></span></p> -->
+                    <p> Today date is: <span id="date"></span></p>
                     <p class="openweather">Information provided by: <a
                             href="https://openweathermap.org/">OpenWeather</a>
                     </p>
@@ -108,6 +126,7 @@
     <script src="scripts/localstorage.js"></script>
     <script src="scripts/weatherapi.js"></script>
     <script src="scripts/date.js"></script>
+    <script src="scripts/lazyloading.js"></script>
 </body>
 
 </html>

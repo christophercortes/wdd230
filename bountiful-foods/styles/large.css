@@ -21,22 +21,26 @@
         flex-direction: column;
     }
 
-    .firstsection img, .secondsection img {
+    .firstsection img {
         width: 100%;
         height: 400px;
         margin: 0;
+    }
+
+    .secondsection img {
+        width: 215%;
     }
 
     .firstsection p {
         margin: 10px;
     }
 
-    .mainsectiontwo {
+    /* .mainsectiontwo {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 20PX;
-    }
+    } */
 
     .secondsection, .thirdsection, .fourthsection, #weathersection {
         width: 900px;
@@ -49,11 +53,25 @@
     }
 
     .secondsection a {
-        top: 310px;
+        top: 234px;
     }
 
     .thirdsection {
         grid-row: 2;
+    }
+
+    .thirdsection img {
+        width: 50%;
+        height: fit-content;
+    }
+
+    .InfoCard {
+        display: flex;
+    }
+
+    .InfoCard p {
+        text-align: justify;
+        margin: 20% 10px 0 10px;
     }
 
     .fourthsection {
