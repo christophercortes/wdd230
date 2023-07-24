@@ -16,7 +16,7 @@ function loadJson() {
     .catch(error => console.error("Error loading JSON:", error));
 }
 
-//loadJson();
+loadJson();
 
 function submitBtn(event) {
     event.preventDefault();
@@ -52,5 +52,3 @@ const dateType = orderDate.toLocaleDateString("en-US", {
 
 const orderDateFormat = document.getElementById("orderDateDisplay");
 orderDateFormat.innerHTML = `<p><strong>Order Date:</strong> ${dateType}</p>`;
-
-loadJson();
